@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>464</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>복이 렌터카</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="member">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 75 11pt &quot;ori1Uni&quot;;
+color: rgb(238, 238, 236);
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>회원 정보</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sight">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>170</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 75 11pt &quot;ori1Uni&quot;;
+color: rgb(238, 238, 236);
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>여행지 정보</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rentacar">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>250</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 75 11pt &quot;ori1Uni&quot;;
+color: rgb(238, 238, 236);
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>렌터카 정보</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reservation">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>330</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 75 11pt &quot;ori1Uni&quot;;
+color: rgb(238, 238, 236);
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>렌터카 예약 정보</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 20pt &quot;ori1Uni&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Boki Rentacar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>464</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBoki_Rentacar">
+    <property name="title">
+     <string> </string>
+    </property>
+   </widget>
+   <addaction name="menuBoki_Rentacar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
