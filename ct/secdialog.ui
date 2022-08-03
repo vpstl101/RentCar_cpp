@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>search_bar</class>
+ <widget class="QDialog" name="search_bar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>20</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>삼별초 Rent Car</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rent_info">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>렌트카 정보 조회 서비스</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="search_show">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>140</y>
+     <width>661</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>차종</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>형식</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>연료</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>수량</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>비용</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>예약현황</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
